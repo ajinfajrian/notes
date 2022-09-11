@@ -15,5 +15,5 @@ https_proxy=http://172.18.216.71:80
 no_proxy="172.18.217.17,10.96.0.0/12,10.244.0.0/16,10.40.41.26,10.40.41.16,10.40.41.159,10.40.41.214,10.40.41.53,10.40.41.87,10.40.41.201,10.40.41.132,.local,.svc,localhost,.bri.co.id"
 ```
 
-systemctl daemon-reload
-systemctl restart docker
+- systemctl daemon-reload
+- systemctl restart docker
